@@ -1,0 +1,93 @@
+.answer-section{
+  align-items: center;
+  text-align: center;
+}
+
+.score-section{
+  align-items: center;
+  text-align: center;
+}
+
+
+
+/*question*/
+.question-section {
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.question-count {
+  margin-bottom: 20px;
+}
+
+.question-count span {
+  font-size: 28px;
+}
+
+.question-text {
+  margin-bottom: 12px;
+}
+
+
+
+body {
+   
+  
+  justify-content: center;
+  align-items: center;
+
+}
+
+/*answer right*/
+.answer-section {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} 
+
+
+
+
+.butt {
+  text-align: center;
+  width: 25%;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #252d4a;
+  border-radius: 15px;
+  display: flex;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 5px solid #234668;
+  cursor: pointer;
+}
+
+.correct {
+  text-align: center;
+  background-color: #2f922f;
+}
+
+.incorrect {
+  text-align: center;
+  background-color: #ff3333;
+}
+
+button:hover {
+  text-align: center;
+  background-color: #555e7d;
+}
+
+button:focus {
+  text-align: center;
+  outline: none;
+}
+
+button svg {
+  text-align: center;
+  margin-right: 5px;
+}
